@@ -757,7 +757,7 @@ function sendEmail() {
       error: function(xhr) {
         $('#submit-btn').html('Enviar Mensaje');
         $('#message').toast('show').addClass('bg-danger').removeClass('bg-success bg-warning');
-        $('.toast-body').html('<strong> Error : </strong> Algo salió mal, Por favor intenta nuevamente.');
+        $('.toast-body').html('<strong> Error : </strong>Oops..! Github pages currently dont support PHP as it only supports static website, so please fill free to contact me at my social media profiles.');
       },
     });
   }
